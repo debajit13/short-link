@@ -31,6 +31,8 @@ A ReactJS and SHRTCODE API based URL shortner.
 5. [React Router Dom](https://reactrouter.com/en/main)
 6. [Axios](https://www.npmjs.com/package/axios)
 
+> If you are interested to contribute in this project please check out the CONTRIBUTING.md file
+
 ## Available Scripts
 
 In the project directory, you can run:
