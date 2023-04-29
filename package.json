@@ -19,7 +19,7 @@
     "react-scripts": "^5.0.1",
     "react-toastify": "^9.1.1",
     "reactstrap": "^9.1.6",
-    "typescript": "^5.0.4",
+    "typescript": "^3.9.10",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
