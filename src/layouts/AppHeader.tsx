@@ -10,11 +10,9 @@ import {
 import { NavLink } from 'react-router-dom';
 import logo from '../assets/logo.png';
 
-function AppNavbar(args) {
-  const [isOpen, setIsOpen] = useState(false);
-
+const AppHeader: React.FC<{ args?: {} }> = (args) => {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   const toggle = () => setIsOpen(!isOpen);
-
   return (
     <div>
       <Navbar {...args} expand='sm' color='dark' dark>
@@ -44,6 +42,6 @@ function AppNavbar(args) {
       </Navbar>
     </div>
   );
-}
+};
 
-export default AppNavbar;
+export default AppHeader;
