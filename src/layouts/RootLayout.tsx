@@ -1,11 +1,10 @@
 import { Outlet } from 'react-router-dom';
+import AppHeader from './AppHeader';
 
-import AppNavbar from './AppHeader';
-
-const RootLayout = () => {
+const RootLayout: React.FC = () => {
   return (
     <>
-      <AppNavbar />
+      <AppHeader />
       <Outlet />
     </>
   );
